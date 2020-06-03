@@ -9,6 +9,6 @@ workflows:
   # Name the workflow "welcome"
   welcome:
     # Run the welcome/run job in its own container
-    echo "Hello Lord Shiva and Krishna >>> !!!"
+    
     jobs:
       - welcome/run
